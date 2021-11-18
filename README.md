@@ -1,6 +1,6 @@
 # Count-Down
 a simple website where there is a count down system implemented. 
-
+[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://fahadportfolio.altervista.org/)
 📢 Feel free to use the source code on your own site:
 <br>
 <br/>
@@ -23,9 +23,8 @@ Please be a **decent person** and give me proper **credit** by linking back to m
 
 
 <br />
-[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://fahadportfolio.altervista.org/)
-<br>
-<br/>
+
+
 [website]: https://fahadportfolio.altervista.org/
 [instagram]: https://www.instagram.com/fa_k.3/
 [linkedin]: https://www.linkedin.com/in/fahad-ullah-0b7559201/
