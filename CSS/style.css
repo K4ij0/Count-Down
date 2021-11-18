@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root {
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green-bright: #64ffda;
+    --green-tint: rgba(100,255,218,0.1);
+
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(to right , #0F2027  , #203A43 70%,#2C5364 );
+    color: white;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+   
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color:  #64ffda;
+    justify-content: center;
+    
+  
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 25%;
+    color: #64ffda;
+    
+}
+
+
+.ending__credits{
+    text-align: center;
+    font-size: 15px;
+    color: #64ffda;
+    position: absolute;
+    bottom: 1%;
+    left: 25%;
+    right: 25%;
+    
+
+}
+
+@media only screen and (max-width: 750px) {
+    .big-text{
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .ending__credits{
+        right: 15px;
+        left: 15px;
+    }
+    
+}
+
+a { color: inherit;
+    text-decoration: none;
+    color:#64ffda;
+} 
+
+a:hover{
+     color:  #64ffda;
+}
+
+.line{
+    
+    position: relative;
+    top: 4%;
+    width: 10em;
+    margin: 0 auto;
+    border-right: 4px solid rgb(255,255,255, 0.75);
+    font-size: 55px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+    transform: translateY(-50%);
+    
+    
+}
+
+.anim-character{
+height: 80px;
+width: 80px;
+margin-bottom: 25px;
+
+
+}
+ /* Text Animation */
+
+.anim-typewriter{
+    
+   
+    
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: -30px;
+    align-items: center;
+    animation:  typewriter 3s steps(20) 1s 1 normal both,
+    blinkTextCursor 1000ms steps(15) infinite normal;
+    
+}
+.anim-color{
+    color: rgba(100, 255, 218);
+   
+    
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 8em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    @keyframes typewriter {
+        from{
+            width: 0;
+        }
+        to {
+            width: 5em;
+        }
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+        border-right-color:#64ffda;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+/* SNOWFLAKES */
+.heart{
+    position: fixed;
+    top: -1vh;
+    font-size: 1rem;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    
+}
+@keyframes fall {
+    0%{
+
+    }
+    100%{
+        transform: translateY(105vh);
+        opacity: 0;   
+    }   
+}
