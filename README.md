@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://fahadportfolio.altervista.org/)
+[![Website](https://img.shields.io/website?label=fahadportfolio.altervista.org/&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://fahadportfolio.altervista.org/)
 # Count-Down
 a simple website where there is a count down system implemented. 
 
